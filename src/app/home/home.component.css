@@ -1,0 +1,13 @@
+.container {
+    margin-top: 50px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  button {
+    margin-top: 20px;
+    margin-right: 10px;
+  }
