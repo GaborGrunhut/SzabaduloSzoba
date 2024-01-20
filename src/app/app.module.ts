@@ -12,7 +12,8 @@ import { FoglalasService } from './foglalas.service';
 @NgModule({
   declarations: [
     AppComponent,
- 
+    FoglalasokComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
