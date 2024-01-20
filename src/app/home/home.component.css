@@ -11,3 +11,18 @@
     margin-top: 20px;
     margin-right: 10px;
   }
+  
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    margin-right: 10px;
+  }
+
+  .center-text {
+    text-align: center;
+  }
