@@ -1,3 +1,6 @@
+<p class="center-text"><br>
+    Alább láthatod az aktuális foglalásokat tartalmazó táblázatot.
+</p> <br>
 <table>
     <thead>
       <tr>
@@ -5,7 +8,7 @@
         <th>Név</th>
         <th>Fő</th>
         <th>Cím</th>
-        <th>Irányítószám/th>
+        <th>Irányítószám</th>
       </tr>
     </thead>
     <tbody>
@@ -18,3 +21,8 @@
       </tr>
     </tbody>
 </table>
+<br>
+<div class="button-container">
+    <button (click)="navigateToHome()" class="btn btn-dark">Főoldal</button>
+    <button (click)="navigateToUjFoglalas()" class="btn btn-dark">Új Foglalás Felvétele</button>
+</div>
